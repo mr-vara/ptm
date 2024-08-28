@@ -1,0 +1,104 @@
+/* Reset some basic styles */
+body, h1, h2, ul, li, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #007BFF;
+}
+
+/* Task list styles */
+.task-list {
+    list-style-type: none;
+}
+
+.task-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item:nth-child(even) {
+    background-color: #efefef;
+}
+
+/* Add task container */
+#add-task-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+#add-task-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Delete button styles */
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
